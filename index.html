@@ -1,0 +1,89 @@
+<head>
+	<title>SQL vs NoSQL</title>
+	<link rel='stylesheet' href='reveal+theme.css'>
+
+<body class='reveal'>
+	<div class='slides'>
+		<section>
+			<img src="1.png" style="float: right;">
+			<div style="text-align: left;">
+				<h3>Databases</h3>
+				<h4>What is a 'database'?</h4>
+				<p>A database is a organized collection of data stored in a way that allows easy access, management, and
+					retrieval of information. It serves as a repository for storing and organizing various types of data for
+					efficient manipulation and use in applications or systems</p>
+			</div>
+		</section>
+		<section>
+			<img src="2.png" style="float: right;">
+			<div style="text-align: left;">
+				<h3>SQL</h3>
+				<h4>The good old (relational) databases</h4>
+				<p>Relational databases organize and store data in tables with relationships defined between them for efficient
+					querying and management</p>
+				<h4>SQL (Structured Query Language)</h4>
+				<p>SQL is a standardized programming language designed to interact with relational databases, performing tasks
+					like data retrieval, modification, and administration through structured queries</p>
+			</div>
+		</section>
+		<section>
+			<img src="3.png" style="float: right;">
+			<div style="text-align: left;">
+				<h3>NoSQL</h3>
+				<h4>The N(ot only)SQl</h4>
+				<p>Non-relational databases, also known as NoSQL databases, are systems designed for storage and retrieval of
+					data models that are not based on the traditional tables of rows used in relational databases but on
+					collections of documents</p>
+				<h4>NoSQl queries</h4>
+				<p>NoSQLqueries are commands used to retrieve, manipulate, and interact with data stored in NoSQL databases,
+					employing a flexible document-based model for data representation and retrieval</p>
+			</div>
+		</section>
+		<section>
+			<img src="4.png" style="float: right;">
+			<div style="text-align: left;">
+				<h3>Similarities</h3>
+				<h4>Both SQL and NoSQL:</h4>
+				<p>- aim to store and manage data efficiently for applications</p>
+				<p>- provide mechanisms to query and retrieve data based on specific criteria</p>
+				<p>- support indexing to enhance data retrieval performance</p>
+				<p>- can scale horizontally to accommodate increasing data volumes and user loads</p>
+				<p>- often provide support for transactions to ensure atomicity, consistency, isolation, and durability (ACID
+					properties) for certain operations</p>
+			</div>
+		</section>
+		<section>
+			<img src="5.png" style="float: right;">
+			<div style="text-align: left; width: 50%;">
+				<h3>Differences</h3>
+				<h4>SQL vs NoSQL:</h4>
+				<p>- SQL databases follow a rigid schema for data organization, while NoSQL databases offer a more flexible approach</p>
+				<p>- SQL databases use SQL (Structured Query Language) for queries, whereas NoSQL databases use various query methods</p>
+				<p>- SQL databases mostly emphasizes relationships between tables, whereas NoSQL databases focus on non-relational models</p>
+				<p>- SQL databases excel at complex queries, while NoSQL databases excel at handling large scale of semi-structured data</p>
+				<p>- SQL databases are more for data consistency, while NoSQL databases are morefor flexibility and rapid scalability</p>
+			</div>
+		</section>
+	</div>
+	<style>
+		.reveal {
+			padding: 1%;
+		}
+		p {
+			font-size: x-large;
+		}
+
+		img {
+			padding: 3%;
+		}
+
+		.reveal h1,
+		.reveal h3,
+		.reveal h4,
+		.reveal h4,
+		.reveal h5 {
+			text-transform: none;
+		}
+	</style>
+	<script src='./reveal.js'></script>
+	<script>Reveal.initialize({width:'100%'})</script>
